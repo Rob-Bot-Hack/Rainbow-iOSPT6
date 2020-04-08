@@ -12,6 +12,8 @@
 		E43594B2243D6249000E4F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43594B0243D6249000E4F91 /* Main.storyboard */; };
 		E43594B4243D624B000E4F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43594B3243D624B000E4F91 /* Assets.xcassets */; };
 		E43594B7243D624B000E4F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43594B5243D624B000E4F91 /* LaunchScreen.storyboard */; };
+		E43594BF243D6B81000E4F91 /* ColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43594BE243D6B81000E4F91 /* ColorsTableViewController.swift */; };
+		E43594C1243D6BE3000E4F91 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43594C0243D6BE3000E4F91 /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E43594B3243D624B000E4F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43594B6243D624B000E4F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E43594B8243D624B000E4F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E43594BE243D6B81000E4F91 /* ColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewController.swift; sourceTree = "<group>"; };
+		E43594C0243D6BE3000E4F91 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,48 @@
 		E43594A9243D6249000E4F91 /* Rainbow iOSPT6 */ = {
 			isa = PBXGroup;
 			children = (
-				E43594AA243D6249000E4F91 /* AppDelegate.swift */,
-				E43594AC243D6249000E4F91 /* SceneDelegate.swift */,
-				E43594B0243D6249000E4F91 /* Main.storyboard */,
-				E43594B3243D624B000E4F91 /* Assets.xcassets */,
-				E43594B5243D624B000E4F91 /* LaunchScreen.storyboard */,
+				E43594C6243D6D47000E4F91 /* Resources */,
+				E43594C2243D6CDE000E4F91 /* Model */,
+				E43594C3243D6CEA000E4F91 /* Views */,
+				E43594C4243D6CF2000E4F91 /* View Controllers */,
 				E43594B8243D624B000E4F91 /* Info.plist */,
 			);
 			path = "Rainbow iOSPT6";
+			sourceTree = "<group>";
+		};
+		E43594C2243D6CDE000E4F91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E43594C3243D6CEA000E4F91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E43594B0243D6249000E4F91 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E43594C4243D6CF2000E4F91 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E43594BE243D6B81000E4F91 /* ColorsTableViewController.swift */,
+				E43594C0243D6BE3000E4F91 /* ColorDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E43594C6243D6D47000E4F91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E43594AA243D6249000E4F91 /* AppDelegate.swift */,
+				E43594AC243D6249000E4F91 /* SceneDelegate.swift */,
+				E43594B3243D624B000E4F91 /* Assets.xcassets */,
+				E43594B5243D624B000E4F91 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +175,8 @@
 			files = (
 				E43594AB243D6249000E4F91 /* AppDelegate.swift in Sources */,
 				E43594AD243D6249000E4F91 /* SceneDelegate.swift in Sources */,
+				E43594BF243D6B81000E4F91 /* ColorsTableViewController.swift in Sources */,
+				E43594C1243D6BE3000E4F91 /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
